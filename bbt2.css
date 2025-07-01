@@ -1,0 +1,80 @@
+.class1 {
+    background-color: #282723;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.rond1{
+  width: 120px;
+  height: 120px;
+  border-radius: 80%;
+  background-image: url('img1.jpg'); 
+  background-size: cover;
+  background-position: center;
+}
+
+.rond2{
+  width: 120px;
+  height: 120px;
+  border-radius: 80%;
+  background-image: url('img2.jpg'); 
+  background-size: cover;
+  background-position: center;
+}
+
+.rond3{
+  width: 120px;
+  height: 120px;
+  border-radius: 80%;
+  background-image: url('img3.jpg'); 
+  background-size: cover;
+  background-position: center;
+}
+
+.rond4{
+  width: 120px;
+  height: 120px;
+  border-radius: 80%;
+  background-image: url('img4.jpg'); 
+  background-size: cover;
+  background-position: center;
+}
+
+.rond5{
+  width: 120px;
+  height: 120px;
+  border-radius: 80%;
+  background-image: url('img5.jpg'); 
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    padding-top: 100px;
+}
+
+.name {
+      margin-top: 130px;
+      font-size: 16px;
+      text-decoration: none;
+
+    }
+    
+
+h1 {
+    color: white;
+}
+h2  {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #fefefe;
+    padding-top: 20px;
+}
+a {
+    text-decoration: none;
+    color: #f0eded;
+}
