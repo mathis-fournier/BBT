@@ -1,48 +1,61 @@
-
-body
-{
-    background-color: black;
-font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-    color: white;
+*{
+      font-family: "Cascadia Code",Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace !important; 
 }
 
-
 .mail{
-    color: gold;
+    color: rgb(140, 182, 210);
+    text-decoration:wavy;
 }
 
 
 .subtitle{
-        font-weight: 400;
-        letter-spacing: 1px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
     font-size: 30px;
     line-height: 0%;
     
 }
 
-
 .hr{
     line-height: 0%;
     border: none;
     height: 4px;
-    background-color: gold;
+    background-color: white;
     width: 100%;
     
 }
 
-
-head
-{
-    
+.retour {
+  align-items: center;
+  background: #f5f5fa;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: -10px -10px 60px 0 #fff,5px 5px 15px 0 #1d0dca17;
+  box-sizing: border-box;
+  color: #2a1f62;
+  cursor: pointer;
+  display: flex;
+  line-height: 1.5rem;
+  padding: 15px;
+}
+.infos{
+    text-align: left;
 }
 
-h1,h3{
-    font-family: "Economica", sans-serif;
+.textes{
+    column-count: 1;
+}
+body
+{
+    text-align:center;
+
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    background-color: rgb(31, 28, 28);
+    color: white;
 }
 
 h1 
@@ -71,13 +84,14 @@ h4
 }
 
 
-button
+.retour
 {
     border-style:solid;
     border-radius: 14%;
     border-color: gray;
     background-color: white;
     color: black;
+    width: 90px;
 
 }
 
@@ -85,4 +99,5 @@ button
 div
 {
     padding-left: 25px;
+
 }
